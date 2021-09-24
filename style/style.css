@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar-nav {}
+
+.nav-link {
+    color: #19345E !important;
+    margin: 0px 40px;
+}
+
+.nav-link:hover {
+    color: #F47522 !important;
+}
+
+.active {
+    color: #F47522 !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding: 160px 0px;
+    background-image: url("../img/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* jumbotron left */
+.left img {
+    width: 555px;
+    height: 555px;
+    margin-left: 150px;
+}
+
+/* jumbotron right */
+.right {
+    padding-top: 75px;
+    color: #19345E;
+}
+
+.right h1 {
+    font-weight: 800;
+}
+
+.right span {
+    font-size: 135px;
+    font-weight: 800;
+}
+
+.btn-home {
+    background-color: #F47522;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .left img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .right {
+        padding: 70px;
+        color: #19345E;
+    }
+
+    .right h1 {
+        font-weight: 800;
+    }
+
+    .right span {
+        font-size: 70px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 768px) {
+    .left img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .right {
+        padding: 100px;
+        color: #19345E;
+    }
+
+    .right h1 {
+        font-weight: 800;
+    }
+
+    .right span {
+        font-size: 100px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 992px) {
+    .left img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .right {
+        color: #19345E;
+    }
+
+    .right h1 {
+        font-weight: 800;
+    }
+
+    .right span {
+        font-size: 100px;
+        font-weight: 800;
+    }
+
+
+}
